@@ -1,0 +1,16 @@
+.container-fluid {
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  border: 0px solid white;
+}
+
+navbar navbar-inverse {
+  background-color: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.container2 {
+  height: 70vh;
+  margin-top: -20px;
+}
+.container2 .text h3 {
+  align-items: flex-end;
+}/*# sourceMappingURL=nav_bar.css.map */

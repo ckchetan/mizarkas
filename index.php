@@ -2,7 +2,7 @@
 $pageName = 'Welcome to Mizarkas';
 
 require_once('./includes/page_title.php');
-require_once('./includes/db_connection.php');
+/*require_once('./includes/db_connection.php');*/
 ?>
 
 <!DOCTYPE html>
@@ -15,12 +15,18 @@ require_once('./includes/db_connection.php');
     <title><?php echo $title ?></title>
 </head>
 <body>
-    <h1>Home Page</h1>
+    
     <!-- include the navbar section below -->
     <?php include_once('./includes/nav_bar.php'); ?>
+    
 
     <!-- main content below -->
     <?php include_once('./includes/main.php'); ?>
+<!-- service content below -->
+    <?php include_once('./includes/service.php'); ?>
+
+    <!-- events content below -->
+    <?php include_once('./includes/events.php'); ?>
 
     <!-- include footer below -->
     <?php include_once('./includes/footer.php'); ?>

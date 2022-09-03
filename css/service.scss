@@ -1,0 +1,25 @@
+
+.con{
+background-color: rgb(221, 220, 220);
+height: 70vh;
+
+.grid-container{
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.grid-container > div {
+    
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+}
+
+.special{
+    background-color: rgba(147, 244, 2, 0.566);
+    margin-top: -20px;
+}
